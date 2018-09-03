@@ -8,7 +8,7 @@
     var
         // default settings object.
         defaults = {
-            label: '',
+            label: 'Characters',
             duplicate: true,
             duration: 200,
             easingOpen: 'swing',

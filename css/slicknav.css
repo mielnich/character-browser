@@ -4,6 +4,7 @@
  * licensed under MIT
  */
 .slicknav_btn {
+    font-family: 'Roboto', sans-serif;
     position: relative;
     display: block;
     vertical-align: middle;
@@ -138,7 +139,7 @@
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    background-color: #263D2A;
+    background-color: #415944;
 }
 
 .slicknav_nav {
@@ -175,13 +176,10 @@
     margin: 2px 5px;
     text-decoration: none;
     color: #fff;
-    background-color: #263D2A;
+    background-color: #415944;
 }
 
 .slicknav_nav a:hover {
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
     background: #ccc;
     color: #222;
 }
