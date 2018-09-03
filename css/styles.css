@@ -5,11 +5,11 @@ body {
 }
 
 .slicknav_menu {
-    display: none;
+    display: block;
 }
 
 #menu {
-    float: right;
+    display: none;
 }
 
 #menu li {
@@ -26,25 +26,4 @@ body {
 
 header {
     padding: 10px 20px 20px 20px;
-}
-
-/*Tablet View*/
-
-/*@media (max-width: 768px) {
-    #menu li {
-        display: block;
-        text-align: right;
-    }
-}*/
-
-/*Mobile View*/
-
-@media (max-width: 786px) {
-    #menu {
-        display: none;
-    }
-
-    .slicknav_menu {
-        display: block;
-    }
 }
