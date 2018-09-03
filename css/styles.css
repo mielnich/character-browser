@@ -1,0 +1,50 @@
+/*Global View*/
+
+body {
+    font-family: sans-serif;
+}
+
+.slicknav_menu {
+    display: none;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #4e4e4e;
+    padding: 8px;
+    font-size: 18px;
+
+}
+
+header {
+    padding: 10px 20px 20px 20px;
+}
+
+/*Tablet View*/
+
+@media (max-width: 768px) {
+    #menu li {
+        display: block;
+        text-align: right;
+    }
+}
+
+/*Mobile View*/
+
+@media (max-width: 400px) {
+    #menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+}
