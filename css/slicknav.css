@@ -125,6 +125,10 @@
 
 .slicknav_menu .slicknav_menutxt {
     color: #fff;
+    -webkit-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
     font-weight: bold;
     text-shadow: 0 1px 3px #000;
 }
@@ -140,6 +144,18 @@
     -moz-border-radius: 0px;
     border-radius: 0px;
     background-color: #415944;
+    -webkit-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.slicknav_btn:hover {
+    background: #141414;
+    -webkit-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
 }
 
 .slicknav_nav {
@@ -164,9 +180,6 @@
 }
 
 .slicknav_nav .slicknav_row:hover {
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
     background: #ccc;
     color: #fff;
 }
@@ -177,11 +190,18 @@
     text-decoration: none;
     color: #fff;
     background-color: #415944;
+    -webkit-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
 }
 
 .slicknav_nav a:hover {
-    background: #ccc;
-    color: #222;
+    background-color: #141414;
+    -webkit-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
 }
 
 .slicknav_nav .slicknav_txtnode {
