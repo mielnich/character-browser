@@ -1,18 +1,19 @@
 <html lang="en">
 
 <head>
-    <title>Character Browser - Home</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Character Browser - Home</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html"><img src="img/banner.jpg" alt="Character Select Banner" width="150px"></a>
+        <a href="index.html"><img class="banner" src="img/banner.png" alt="Character Select Banner" width="150px"></a>
         <ul id="menu">
             <li><a href="character-1.html">character-1</a></li>
             <li><a href="character-2.html">character-2</a></li>
@@ -24,16 +25,18 @@
         <div class="hero">
             <p class="subheading">THE WORLD OF</p>
             <h1>GAYTOPIA</h1>
-            <p class="heading-body">Look at this cool ass art. I wish I could draw like this. Damn bruh. This text will be used to introduce people to the website.</p>
+            <p class="heading-body">Look at this cool ass art. I wish I could draw like this. Damn bruh. This text will be used to introduce people to the website. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.</p>
             <p class="keep-reading">Keep Reading</p>
-            <p class="hero-keep-reading"></p>
+            <div class="hero-keep-reading">
+                <p>This area will be devoted to a deeper dive into the lore. It won't be everything, just enough to satisfy people who don't want to know every small detail about the world, but do want to know it generally. <br><br><br><br><br> P.S. the background could be something like a scroll or any image.</p>
+            </div>
         </div>
     </main>
 
     <footer>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about-me.html" target="_blank">About Me</a></li>
+            <li><a href="#">About Us</a></li>
             <li><a href="https://twitter.com/tiboopity" target="_blank">Twitter</a></li>
         </ul>
     </footer>
@@ -41,6 +44,7 @@
     <script src="js/scripts.js" type="text/javascript"></script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
+
     <script>
         $(function() {
             $('#menu').slicknav();
