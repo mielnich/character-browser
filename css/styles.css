@@ -102,13 +102,13 @@ h1 {
 
 .character1-profile-img {
     float: left;
-    padding-bottom: 40%;
+    padding-bottom: 10px;
     max-width: 135px;
     padding-right: 10px;
 }
 
 .character1-body {
-    font-size: 22px;
+    font-size: 18px;
     padding-right: 10%;
 }
 
