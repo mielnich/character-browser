@@ -1,9 +1,9 @@
 $(".hero-keep-reading").hide();
 
-$(window).on("load", function() {
+$(window).on("load", function () {
 
-    $(".keep-reading").click(function() {
-        $(".hero-keep-reading").slideToggle("slow", function() {
+    $(".keep-reading").click(function () {
+        $(".hero-keep-reading").fadeToggle("slow", function () {
             // Animation complete.
         });
     });
